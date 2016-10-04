@@ -1,0 +1,4 @@
+This JavaScript plugin use-case displays public posts from Facebook, Twitter, Google Plus, Instagram, VK via a search query.
+The authentication on social-networks to retrieve data is hardcoded using public read-only credentials of the application owner (Pavel Kucherbaev).
+The visitors of this use-case application are tracked using basic Google Analytics tools.
+No authentication is required to use the use-case application.
