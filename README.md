@@ -10,4 +10,4 @@ http://pavelk2.github.io/social-feed-example/
 
 ## Source code and documentation
 
-The source code and documentation stay in the plugin repository: https://github.com/pavelk2/social-feed/
+https://github.com/pavelk2/social-feed/
