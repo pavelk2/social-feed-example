@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <!-- Social-feed css -->
-    <link href="css/example.css" rel="stylesheet" type="text/css">
-    <link href="css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/social-feed/css/example.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/social-feed/css/jquery.socialfeed.css" rel="stylesheet" type="text/css">
     <!-- font-awesome for social network icons -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet'>
@@ -61,7 +61,7 @@
     <!-- Moment.js for showing "time ago" -->
     <script src="bower_components/moment/min/moment.min.js"></script>
     <!-- Social-feed js -->
-    <script src="js/jquery.socialfeed.js"></script>
+    <script src="bower_components/social-feed/js/jquery.socialfeed.js"></script>
     <script>
     $(document).ready(function() {
 
@@ -106,6 +106,7 @@
                 // GENERAL SETTINGS
                 length: 200,
                 show_media: true,
+                template : "bower_components/social-feed/template.html",
                 // Moderation function - if returns false, template will have class hidden
                 moderation: function(content) {
                     return (content.text) ? content.text.indexOf('fuck') == -1 : true;
@@ -147,5 +148,4 @@
     ga('send', 'pageview');
     </script>
 </body>
-
 </html>

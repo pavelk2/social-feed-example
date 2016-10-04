@@ -34,8 +34,7 @@
     "tag": "2.5.0",
     "commit": "740af44f58423d230ab839e2cc192fb3937a38f5"
   },
-  "_source": "git://github.com/jublonet/codebird-js.git",
+  "_source": "https://github.com/jublonet/codebird-js.git",
   "_target": "~2.5.0",
-  "_originalSource": "codebird-js",
-  "_direct": true
+  "_originalSource": "codebird-js"
 }
