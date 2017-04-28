@@ -16,7 +16,7 @@ body {
 section, .intro, .stripe {
   display: block;
   padding: 20px 0px; }
-.hidden:{
+.hidden{
   display:none;
 }
 
