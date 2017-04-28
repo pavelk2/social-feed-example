@@ -16,6 +16,9 @@ body {
 section, .intro, .stripe {
   display: block;
   padding: 20px 0px; }
+.hidden:{
+  display:none;
+}
 
 .intro {
   font-weight: 100;
