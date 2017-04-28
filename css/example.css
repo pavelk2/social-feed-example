@@ -16,9 +16,6 @@ body {
 section, .intro, .stripe {
   display: block;
   padding: 20px 0px; }
-.hidden{
-  display:none;
-}
 
 .intro {
   font-weight: 100;
@@ -102,3 +99,6 @@ section.intro hr, .intro hr, .intro.stripe hr {
     list-style: none; }
 
 /*# sourceMappingURL=example.css.map */
+.social-feed-element.hidden{
+  display:none;
+}
